@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1586720489 source:c:\users\hernan\desktop\calculadora tp\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1586719286 c:\users\hernan\desktop\calculadora tp\funciones.h
+
+1586719850 source:c:\users\hernan\desktop\calculadora tp\funciones.c
+
