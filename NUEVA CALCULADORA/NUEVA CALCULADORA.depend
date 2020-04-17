@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1587148668 source:c:\users\hernan\desktop\nueva calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+	"OPERACIONES.h"
+
+1587146882 c:\users\hernan\desktop\nueva calculadora\operaciones.h
+
+1587146882 source:c:\users\hernan\desktop\nueva calculadora\operaciones.c
+
