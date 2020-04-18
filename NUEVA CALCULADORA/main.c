@@ -60,7 +60,15 @@ int main()
             //division
 
             resultado=division(primerNumero,segundoNumero);
-            printf("d) El resultado de %.2f/%.2f es: %.2f\n",primerNumero,segundoNumero,resultado);
+
+            if(segundoNumero==0)
+            {
+                printf("d) No es posible dividir por cero\n");
+            }
+            else
+            {
+                printf("d) El resultado de %.2f/%.2f es: %.2f\n",primerNumero,segundoNumero,resultado);
+            }
 
             //factorial
 
@@ -102,7 +110,7 @@ int main()
                 resultado= factorial(segundoNumero);
 
                 printf("e) El resultado del factorial del 2°operando: %.2f es: %.2f\n",segundoNumero, resultado);
-                break;
+
             }
 
         }
@@ -115,7 +123,8 @@ int main()
 
         system("cls");
     }
-    while(opcion!=5);
+    while(opcion< 1 || opcion!= 5 || opcion > 5 );
+
 
     return 0;
 
