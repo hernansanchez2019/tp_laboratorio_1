@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1589604971 source:c:\users\hernan\desktop\trabajo numero 2 empleados\main.c
+	"ArrayEmployees.h"
+
+1589606029 c:\users\hernan\desktop\trabajo numero 2 empleados\arrayemployees.h
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1589605024 source:c:\users\hernan\desktop\trabajo numero 2 empleados\arrayemployees.c
+	"ArrayEmployees.h"
+
