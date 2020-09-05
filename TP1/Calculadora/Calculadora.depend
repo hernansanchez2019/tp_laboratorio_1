@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1599337032 source:f:\clases utn\programacion - laboratorio\tp_laboratorio_1\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
+
