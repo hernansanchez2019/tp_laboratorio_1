@@ -3,7 +3,10 @@
 
 
 int suma(int num1, int num2);
-
+int resta(int num1, int num2);
+int producto(int num1, int num2);
+float division(int num1, int num2);
+int factorial(int num1);
 
 
 int main()
@@ -13,6 +16,9 @@ int main()
     int respuesta;
     int flag=0;
     int resultado;
+    float resultadoDivision;
+    int resultado1factorial;
+    int resultado2factorial;
 
 
 
@@ -42,6 +48,7 @@ int main()
             {
                 printf(" 1.  Ingresar 1er operando (A=x)= ");
                 scanf("%d",&num1);
+                flag=1;
                 system("cls");
                 break;
 
@@ -49,18 +56,26 @@ int main()
 
         case 2:
 
-            if(flag==0)
-            {
-                printf(" 2.  Ingresar 2do operando (B=y)= ");
-                scanf("%d",&num2);
-                system("cls");
-                break;
-            }
 
-
+            printf(" 2.  Ingresar 2do operando (B=y)= ");
+            scanf("%d",&num2);
+            flag=1;
+            system("cls");
+            break;
 
         case 3:
             if(flag==0)
+            {
+
+
+                printf("No hay numeros para Operar\n");
+                system("PAUSE");
+                system("cls");
+                break;
+
+            }
+
+            else
             {
 
                 printf(" 1.  Ingresar 1er operando (%d) ",num1);
@@ -72,20 +87,10 @@ int main()
                 printf("\n 4.  Informar resultados\n");
 
                 printf("\n 5.  Salir\n\n");
-
-                flag=1;
                 system("PAUSE");
                 system("cls");
                 break;
 
-            }
-
-            else
-            {
-                printf("No hay numeros para Operar\n");
-                system("PAUSE");
-                system("cls");
-                break;
             }
 
         case 4:
@@ -100,22 +105,63 @@ int main()
             else
             {
                 resultado= suma(num1,num2);
+                printf(" a) El resultado de %d+%d es = %d  \n", num1, num2, resultado);
 
-                printf(" a) El resultado de %d+%d es %d \n", num1, num2, resultado);
-                system("PAUSE");
-                system("cls");
-                break;
+                resultado= resta(num1,num2);
+                printf(" b) El resultado de %d-%d es = %d  \n", num1, num2, resultado);
 
+
+                resultado=producto(num1,num2);
+                printf(" c) El resultado de %d*%d es = %d  \n", num1, num2, resultado);
+
+                resultado1factorial=factorial(num1);
+                resultado2factorial=factorial(num2);
+                printf(" d) El factorial de %d es = %d y El factorial de %d es: %d \n", num1, resultado1factorial,num2,resultado2factorial);
+
+                if(num2==0)
+                {
+                    printf(" e) El resultado de %d/%d es = No se puede dividir por cero \n", num1, num2);
+                    system("PAUSE");
+                    system("cls");
+
+
+                }
+
+                else
+                {
+                    resultadoDivision= (float)division(num1,num2);
+                    printf(" e) El resultado de %d/%d es = %.2f  \n", num1, num2, resultadoDivision);
+                    system("PAUSE");
+                    system("cls");
+                    break;
+
+
+                }
             }
 
+        case 5:
+            printf("\nApagando...");
+            system("PAUSE");
+            system("cls");
+            break;
         }
+
+
 
     }
     while(respuesta!=5);
 
 
+
+
+
     return 0;
 }
+
+
+
+
+
 
 int suma(int num1, int num2)
 {
@@ -124,4 +170,51 @@ int suma(int num1, int num2)
     resultado= num1 + num2;
 
     return resultado;
+}
+
+int resta(int num1, int num2)
+{
+    int resultado;
+
+    resultado= num1 - num2;
+
+    return resultado;
+}
+
+int producto(int num1, int num2)
+{
+    int resultado;
+
+    resultado= num1 * num2;
+
+    return resultado;
+}
+
+float division(int num1, int num2)
+{
+    float resultado;
+
+    resultado= (float)num1 / num2;
+
+    return resultado;
+}
+
+int factorial(int num1)
+
+{
+    int resultado=1;
+    int i;
+
+    for (i=num1; i>0 ; i--)
+    {
+        //factoriamos variables
+
+        resultado= i * resultado;
+
+    }
+
+
+    return resultado;
+
+
 }
