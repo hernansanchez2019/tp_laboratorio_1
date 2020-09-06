@@ -1,16 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-
-int suma(int num1, int num2);
-int resta(int num1, int num2);
-int producto(int num1, int num2);
-float division(int num1, int num2);
-int factorial(int num1);
-
+#include "FUNCIONES.h"
 
 int main()
 {
+
     int num1;
     int num2;
     int respuesta;
@@ -20,13 +14,11 @@ int main()
     int resultado1factorial;
     int resultado2factorial;
 
-
-
     do
     {
+        printf("\t********* Calculadora ********* ");
 
-
-        printf(" 1.  Ingresar 1er operando ");
+        printf("\n\n 1.  Ingresar 1er operando ");
 
         printf("\n 2.  Ingresar 2er operando ");
 
@@ -38,6 +30,7 @@ int main()
 
         printf("\nIngrese una opcion --> 1/2/3/4/5\n");
         scanf("%d", &respuesta);
+
         system("cls");
 
         switch(respuesta)
@@ -51,12 +44,9 @@ int main()
                 flag=1;
                 system("cls");
                 break;
-
             }
 
         case 2:
-
-
             printf(" 2.  Ingresar 2do operando (B=y)= ");
             scanf("%d",&num2);
             flag=1;
@@ -66,7 +56,6 @@ int main()
         case 3:
             if(flag==0)
             {
-
 
                 printf("No hay numeros para Operar\n");
                 system("PAUSE");
@@ -90,7 +79,6 @@ int main()
                 system("PAUSE");
                 system("cls");
                 break;
-
             }
 
         case 4:
@@ -100,7 +88,6 @@ int main()
                 system("PAUSE");
                 system("cls");
                 break;
-
             }
             else
             {
@@ -123,8 +110,6 @@ int main()
                     printf(" e) El resultado de %d/%d es = No se puede dividir por cero \n", num1, num2);
                     system("PAUSE");
                     system("cls");
-
-
                 }
 
                 else
@@ -134,10 +119,10 @@ int main()
                     system("PAUSE");
                     system("cls");
                     break;
-
-
                 }
             }
+
+            break;
 
         case 5:
             printf("\nApagando...");
@@ -146,75 +131,16 @@ int main()
             break;
         }
 
-
-
     }
     while(respuesta!=5);
 
-
-
-
-
-    return 0;
-}
-
-
-
-
-
-
-int suma(int num1, int num2)
-{
-    int resultado;
-
-    resultado= num1 + num2;
-
-    return resultado;
-}
-
-int resta(int num1, int num2)
-{
-    int resultado;
-
-    resultado= num1 - num2;
-
-    return resultado;
-}
-
-int producto(int num1, int num2)
-{
-    int resultado;
-
-    resultado= num1 * num2;
-
-    return resultado;
-}
-
-float division(int num1, int num2)
-{
-    float resultado;
-
-    resultado= (float)num1 / num2;
-
-    return resultado;
-}
-
-int factorial(int num1)
-
-{
-    int resultado=1;
-    int i;
-
-    for (i=num1; i>0 ; i--)
-    {
-        //factoriamos variables
-
-        resultado= i * resultado;
-
-    }
-
-
-    return resultado;
-
+     return 0;
 
 }
+
+
+
+
+
+
+
