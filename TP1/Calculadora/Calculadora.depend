@@ -3,13 +3,15 @@
 	<stdio.h>
 	<stdlib.h>
 
-1599433587 source:f:\clases utn\programacion - laboratorio\tp_laboratorio_1\tp1\calculadora\main.c
+1599869367 source:f:\clases utn\programacion - laboratorio\tp_laboratorio_1\tp1\calculadora\main.c
+	<stdio.h>
+	<stdlib.h>
 	"FUNCIONES.h"
 
-1599433871 source:f:\clases utn\programacion - laboratorio\tp_laboratorio_1\tp1\calculadora\funciones.c
+1599868948 source:f:\clases utn\programacion - laboratorio\tp_laboratorio_1\tp1\calculadora\funciones.c
 	"FUNCIONES.h"
 
-1599433814 f:\clases utn\programacion - laboratorio\tp_laboratorio_1\tp1\calculadora\funciones.h
+1599869448 f:\clases utn\programacion - laboratorio\tp_laboratorio_1\tp1\calculadora\funciones.h
 
 1599484055 source:c:\users\sanchez\desktop\tp_laboratorio_1\tp1\calculadora\funciones.c
 	"FUNCIONES.h"

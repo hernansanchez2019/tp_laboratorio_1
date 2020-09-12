@@ -4,12 +4,10 @@
 
 int main()
 {
-
-
     int num1;
     int num2;
     int respuesta;
-    int flag=0;
+    int flag=0; // USO DE BANDERAS PARA TENER UN ORDEN CON LAS OPCIONES
     int resultado;
     float resultadoDivision;
     int resultado1factorial;
@@ -31,7 +29,7 @@ int main()
 
         printf("\nIngrese una opcion --> 1/2/3/4/5\n");
         scanf("%d", &respuesta);
-
+        fflush(stdin);
         system("cls");
 
         switch(respuesta)
@@ -48,24 +46,17 @@ int main()
             }
 
         case 2:
-            printf(" 2.  Ingresar 2do operando (B=y)= ");
-            scanf("%d",&num2);
-            flag=1;
-            system("cls");
-            break;
 
-        case 3:
-            if(flag==0)
+            if(flag==1)
             {
-
-                printf("No hay numeros para Operar\n");
-                system("PAUSE");
+                printf(" 2.  Ingresar 2do operando (B=y)= ");
+                scanf("%d",&num2);
+                flag=0;
                 system("cls");
                 break;
-
             }
-
-            else
+        case 3:
+            if(flag==0)
             {
 
                 printf(" 1.  Ingresar 1er operando (%d) ",num1);
@@ -77,20 +68,25 @@ int main()
                 printf("\n 4.  Informar resultados\n");
 
                 printf("\n 5.  Salir\n\n");
+
+                flag=2;
+                system("PAUSE");
+                system("cls");
+                break;
+
+            }
+
+            else
+            {
+
+                printf("No hay numeros para Operar\n");
                 system("PAUSE");
                 system("cls");
                 break;
             }
 
         case 4:
-            if(flag==0)
-            {
-                printf("No hay Resultados para Mostrar\n");
-                system("PAUSE");
-                system("cls");
-                break;
-            }
-            else
+            if(flag==2)
             {
                 resultado= suma(num1,num2);
                 printf(" a) El resultado de %d+%d es = %d  \n", num1, num2, resultado);
@@ -105,6 +101,7 @@ int main()
                 resultado1factorial=factorial(num1);
                 resultado2factorial=factorial(num2);
                 printf(" d) El factorial de %d es = %d y El factorial de %d es: %d \n", num1, resultado1factorial,num2,resultado2factorial);
+                flag=0;
 
                 if(num2==0)
                 {
@@ -121,6 +118,14 @@ int main()
                     system("cls");
                     break;
                 }
+
+            }
+            else
+            {
+                printf("Primero Calcule los operando antes de ver los resultados !!!\n");
+                system("PAUSE");
+                system("cls");
+                break;
             }
 
             break;
@@ -135,13 +140,6 @@ int main()
     }
     while(respuesta!=5);
 
-     return 0;
+    return 0;
 
 }
-
-
-
-
-
-
-

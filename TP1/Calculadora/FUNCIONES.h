@@ -40,7 +40,7 @@ int suma(int num1, int num2);
 
 /** \brief Calculamos el factorial de un numero
  *
- * \param num1 int Le pedimos al usuario el primer numero a calcular
+ * \param num1 int Le pedimos al usuario el primer numero a calcular para multiplicarlo por el anterior
  * \return int retornamos el factorial de un numero
  *
  */

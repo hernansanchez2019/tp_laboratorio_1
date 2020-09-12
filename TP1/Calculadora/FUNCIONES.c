@@ -45,13 +45,16 @@ float division(int num1, int num2)
 int factorial(int num1)
 
 {
-    int resultado=1;
-    int i;
+    int resultado;
 
-    for (i=num1; i>0 ; i--)
+    if (num1 == 0)
     {
-        //factoriamos variables
-        resultado= i * resultado;
+        resultado = 1;
+    }
+
+    else
+    {
+        resultado = num1* factorial(num1-1);
     }
 
     return resultado;
