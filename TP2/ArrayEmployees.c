@@ -137,14 +137,15 @@ void Menu(Eempleado cliente[], int tam)
         printf("\nIngrese una opcion --> 1/2/3/4/5 = ");
         scanf("%d",&opcion);
 
+        // VALIDAMOS PARA OPCION PARA QUE EL USUARIO NO INGRESE LETRAS NI NUMEROS MENORES A 1 , NI MAYORES A 5
 
-        while(scanf("%d",&opcion)==1)
+        while(opcion < 1 || opcion > 5)
         {
-            printf("Error...Reingrese opcion: ");
-          /*  scanf("%d",&opcion);
+            printf("Error...reingrese opcion --> 1/2/3/4/5 = ");
             fflush(stdin);
-            system("cls");*/
+            scanf("%d",&opcion);
         }
+
 
         switch (opcion)
         {
