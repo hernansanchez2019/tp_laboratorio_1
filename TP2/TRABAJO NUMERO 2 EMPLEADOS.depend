@@ -32,3 +32,11 @@
 1601144875 source:f:\clases utn\programacion - laboratorio\tp_laboratorio_1\tp2\main.c
 	"ArrayEmployees.h"
 
+1601697911 source:c:\users\hernan\desktop\tp_laboratorio_1\tp2\arrayemployees.c
+	"ArrayEmployees.h"
+
+1601697911 c:\users\hernan\desktop\tp_laboratorio_1\tp2\arrayemployees.h
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
