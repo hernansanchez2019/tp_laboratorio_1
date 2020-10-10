@@ -40,3 +40,14 @@
 	<stdio.h>
 	<stdlib.h>
 
+1602288371 source:c:\users\hernan\desktop\nueva carpeta\tp_laboratorio_1\tp2\arrayemployees.c
+	"ArrayEmployees.h"
+
+1602288558 c:\users\hernan\desktop\nueva carpeta\tp_laboratorio_1\tp2\arrayemployees.h
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1602288371 source:c:\users\hernan\desktop\nueva carpeta\tp_laboratorio_1\tp2\main.c
+	"ArrayEmployees.h"
+

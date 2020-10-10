@@ -5,7 +5,7 @@
 #include <stdlib.h>
 typedef struct
 {
-    char nombre[50];
+   char nombre[50];
     char apellido[50];
     float salario;
     int sector;
