@@ -1,0 +1,22 @@
+/*
+ * tipoPasajero.h
+ *
+ *  Created on: 6 may. 2022
+ *      Author: Hernan
+ */
+
+#ifndef TIPOPASAJERO_H_
+#define TIPOPASAJERO_H_
+
+typedef struct
+{
+	int id;
+	char descripcion[20];
+
+}eTipoPassenger;
+
+#endif /* TIPOPASAJERO_H_ */
+
+
+int cargarDescripcionPasajero(eTipoPassenger tipo[], int tam, int id, char desc[]);
+

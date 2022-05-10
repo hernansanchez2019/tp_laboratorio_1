@@ -1,0 +1,846 @@
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+02:04:12 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+..\src\funcionesPersonales.c: In function 'listadoCodVueloYestado':
+..\src\funcionesPersonales.c:25:3: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+   print("Cod.Vuelo     Estado Vuelo\n");
+   ^~~~~
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+src\funcionesPersonales.o: In function `listadoCodVueloYestado':
+C:\Users\Hernan\Desktop\TP_[1]\TP2\Debug/../src/funcionesPersonales.c:25: undefined reference to `print'
+C:\Users\Hernan\Desktop\TP_[1]\TP2\Debug/../src/funcionesPersonales.c:26: undefined reference to `print'
+C:\Users\Hernan\Desktop\TP_[1]\TP2\Debug/../src/funcionesPersonales.c:30: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+02:04:35 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+02:05:23 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+02:06:08 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+02:08:38 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+02:12:04 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'sortPassengersByCode':
+..\src\ArrayPassenger.c:242:35: error: incompatible types when assigning to type 'ePassenger {aka struct <anonymous>}' from type 'eEstadoVuelo {aka struct <anonymous>}'
+                       auxPasajero = vuelo[i];
+                                   ^
+..\src\ArrayPassenger.c:244:32: error: incompatible types when assigning to type 'eEstadoVuelo {aka struct <anonymous>}' from type 'ePassenger {aka struct <anonymous>}'
+                       vuelo[j] = auxPasajero;
+                                ^
+02:12:05 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'sortPassengersByCode':
+..\src\ArrayPassenger.c:242:35: error: incompatible types when assigning to type 'ePassenger {aka struct <anonymous>}' from type 'eEstadoVuelo {aka struct <anonymous>}'
+                       auxPasajero = vuelo[i];
+                                   ^
+..\src\ArrayPassenger.c:244:32: error: incompatible types when assigning to type 'eEstadoVuelo {aka struct <anonymous>}' from type 'ePassenger {aka struct <anonymous>}'
+                       vuelo[j] = auxPasajero;
+                                ^
+02:12:44 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+02:19:21 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'sortPassengersByCode':
+..\src\ArrayPassenger.c:227:36: error: 'sectores' undeclared (first use in this function)
+      if( vec != NULL && tam > 0 && sectores != NULL && tam > 0)
+                                    ^~~~~~~~
+..\src\ArrayPassenger.c:227:36: note: each undeclared identifier is reported only once for each function it appears in
+02:19:36 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+02:20:09 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+02:21:23 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+02:21:46 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+02:22:44 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+02:28:45 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+02:38:32 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'addPassengers':
+..\src\ArrayPassenger.c:88:46: warning: comparison between pointer and integer
+             while(strlen(aux) >= 20   && aux < '0'  && aux > '9')
+                                              ^
+..\src\ArrayPassenger.c:88:60: warning: comparison between pointer and integer
+             while(strlen(aux) >= 20   && aux < '0'  && aux > '9')
+                                                            ^
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+02:38:57 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'addPassengers':
+..\src\ArrayPassenger.c:88:47: warning: comparison between pointer and integer
+             while((strlen(aux) >= 20 ) && aux < '0'  && aux > '9')
+                                               ^
+..\src\ArrayPassenger.c:88:61: warning: comparison between pointer and integer
+             while((strlen(aux) >= 20 ) && aux < '0'  && aux > '9')
+                                                             ^
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+02:39:11 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'addPassengers':
+..\src\ArrayPassenger.c:88:47: warning: comparison between pointer and integer
+             while((strlen(aux) >= 20 ) && aux < '0' || aux > '9')
+                                               ^
+..\src\ArrayPassenger.c:88:60: warning: comparison between pointer and integer
+             while((strlen(aux) >= 20 ) && aux < '0' || aux > '9')
+                                                            ^
+..\src\ArrayPassenger.c:88:40: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+             while((strlen(aux) >= 20 ) && aux < '0' || aux > '9')
+                   ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+02:39:28 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'addPassengers':
+..\src\ArrayPassenger.c:88:48: warning: comparison between pointer and integer
+             while((strlen(aux) >= 20 ) && (aux < '0' || aux > '9'))
+                                                ^
+..\src\ArrayPassenger.c:88:61: warning: comparison between pointer and integer
+             while((strlen(aux) >= 20 ) && (aux < '0' || aux > '9'))
+                                                             ^
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+02:39:49 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'addPassengers':
+..\src\ArrayPassenger.c:88:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+             while((strlen(aux) >= 20 ) && (aux < "0" || aux > "9"))
+                                                ^
+..\src\ArrayPassenger.c:88:61: warning: comparison with string literal results in unspecified behavior [-Waddress]
+             while((strlen(aux) >= 20 ) && (aux < "0" || aux > "9"))
+                                                             ^
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+02:39:59 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'addPassengers':
+..\src\ArrayPassenger.c:88:48: warning: comparison with string literal results in unspecified behavior [-Waddress]
+             while((strlen(aux) >= 20 ) || (aux < "0" || aux > "9"))
+                                                ^
+..\src\ArrayPassenger.c:88:61: warning: comparison with string literal results in unspecified behavior [-Waddress]
+             while((strlen(aux) >= 20 ) || (aux < "0" || aux > "9"))
+                                                             ^
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+02:43:31 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+02:44:26 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+02:44:59 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+02:45:45 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+03:30:18 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'getString':
+..\src\validaciones.c:30:13: error: 'NULL' undeclared (first use in this function)
+     if(msg!=NULL && msgError!=NULL && min<=max && reintentos>=0 && resultado!=NULL)
+             ^~~~
+..\src\validaciones.c:30:13: note: each undeclared identifier is reported only once for each function it appears in
+..\src\validaciones.c:34:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+             printf("%s",msg);   //no poner salto de linea, se va a pasar en el mensaje por valor
+             ^~~~~~
+..\src\validaciones.c:34:13: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\validaciones.c:34:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c:35:13: warning: implicit declaration of function 'fflush' [-Wimplicit-function-declaration]
+             fflush(stdin);
+             ^~~~~~
+..\src\validaciones.c:35:20: error: 'stdin' undeclared (first use in this function)
+             fflush(stdin);
+                    ^~~~~
+..\src\validaciones.c:36:13: warning: implicit declaration of function 'gets' [-Wimplicit-function-declaration]
+             gets(bufferStr);
+             ^~~~
+..\src\validaciones.c:38:16: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+             if(strlen(bufferStr)>=min && strlen(bufferStr)<max)    // tamaño (max) =cantidad de elementos (strlen) + 1(\0)
+                ^~~~~~
+..\src\validaciones.c:38:16: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\validaciones.c:38:16: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\validaciones.c:40:17: warning: implicit declaration of function 'strncpy' [-Wimplicit-function-declaration]
+                 strncpy(resultado,bufferStr,max);
+                 ^~~~~~~
+..\src\validaciones.c:40:17: warning: incompatible implicit declaration of built-in function 'strncpy'
+..\src\validaciones.c:40:17: note: include '<string.h>' or provide a declaration of 'strncpy'
+..\src\validaciones.c: In function 'getName':
+..\src\validaciones.c:66:13: error: 'NULL' undeclared (first use in this function)
+     if(msg!=NULL && msgError!=NULL && min<=max && reintentos>=0 && resultado!=NULL)
+             ^~~~
+..\src\validaciones.c:74:21: warning: incompatible implicit declaration of built-in function 'strncpy'
+                     strncpy(resultado,bufferStr,max);
+                     ^~~~~~~
+..\src\validaciones.c:74:21: note: include '<string.h>' or provide a declaration of 'strncpy'
+..\src\validaciones.c:80:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s",msgError);
+                     ^~~~~~
+..\src\validaciones.c:80:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c: In function 'getUnsignedInt':
+..\src\validaciones.c:119:13: error: 'NULL' undeclared (first use in this function)
+     if(msg!=NULL && msgError!=NULL && minSize<maxSize && reintentos>=0 && input!=NULL)
+             ^~~~
+..\src\validaciones.c:127:28: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+                     *input=atoi(bufferStr);     // unsigned long int strtoul(const char *str, char **end, int base)?
+                            ^~~~
+..\src\validaciones.c:133:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s",msgError);
+                     ^~~~~~
+..\src\validaciones.c:133:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c: In function 'getFloat':
+..\src\validaciones.c:173:13: error: 'NULL' undeclared (first use in this function)
+     if(msg!=NULL && msgError!=NULL && minSize<maxSize && reintentos>=0 && input!=NULL)
+             ^~~~
+..\src\validaciones.c:181:28: warning: implicit declaration of function 'atof' [-Wimplicit-function-declaration]
+                     *input=atof(bufferStr); // atof array to float
+                            ^~~~
+..\src\validaciones.c:187:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s", msgError);
+                     ^~~~~~
+..\src\validaciones.c:187:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+03:30:46 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'getString':
+..\src\validaciones.c:34:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+             printf("%s",msg);   //no poner salto de linea, se va a pasar en el mensaje por valor
+             ^~~~~~
+..\src\validaciones.c:34:13: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\validaciones.c:34:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c:35:13: warning: implicit declaration of function 'fflush' [-Wimplicit-function-declaration]
+             fflush(stdin);
+             ^~~~~~
+..\src\validaciones.c:35:20: error: 'stdin' undeclared (first use in this function)
+             fflush(stdin);
+                    ^~~~~
+..\src\validaciones.c:35:20: note: each undeclared identifier is reported only once for each function it appears in
+..\src\validaciones.c:36:13: warning: implicit declaration of function 'gets' [-Wimplicit-function-declaration]
+             gets(bufferStr);
+             ^~~~
+..\src\validaciones.c: In function 'getName':
+..\src\validaciones.c:80:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s",msgError);
+                     ^~~~~~
+..\src\validaciones.c:80:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c: In function 'getUnsignedInt':
+..\src\validaciones.c:127:28: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+                     *input=atoi(bufferStr);     // unsigned long int strtoul(const char *str, char **end, int base)?
+                            ^~~~
+..\src\validaciones.c:133:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s",msgError);
+                     ^~~~~~
+..\src\validaciones.c:133:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c: In function 'getFloat':
+..\src\validaciones.c:181:28: warning: implicit declaration of function 'atof' [-Wimplicit-function-declaration]
+                     *input=atof(bufferStr); // atof array to float
+                            ^~~~
+..\src\validaciones.c:187:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s", msgError);
+                     ^~~~~~
+..\src\validaciones.c:187:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+03:31:25 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'getString':
+..\src\validaciones.c:35:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+             printf("%s",msg);   //no poner salto de linea, se va a pasar en el mensaje por valor
+             ^~~~~~
+..\src\validaciones.c:35:13: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\validaciones.c:35:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c:36:13: warning: implicit declaration of function 'fflush' [-Wimplicit-function-declaration]
+             fflush(stdin);
+             ^~~~~~
+..\src\validaciones.c:36:20: error: 'stdin' undeclared (first use in this function)
+             fflush(stdin);
+                    ^~~~~
+..\src\validaciones.c:36:20: note: each undeclared identifier is reported only once for each function it appears in
+..\src\validaciones.c:37:13: warning: implicit declaration of function 'gets' [-Wimplicit-function-declaration]
+             gets(bufferStr);
+             ^~~~
+..\src\validaciones.c: In function 'getName':
+..\src\validaciones.c:81:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s",msgError);
+                     ^~~~~~
+..\src\validaciones.c:81:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c: In function 'getUnsignedInt':
+..\src\validaciones.c:128:28: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+                     *input=atoi(bufferStr);     // unsigned long int strtoul(const char *str, char **end, int base)?
+                            ^~~~
+..\src\validaciones.c:134:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s",msgError);
+                     ^~~~~~
+..\src\validaciones.c:134:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c: In function 'getFloat':
+..\src\validaciones.c:182:28: warning: implicit declaration of function 'atof' [-Wimplicit-function-declaration]
+                     *input=atof(bufferStr); // atof array to float
+                            ^~~~
+..\src\validaciones.c:188:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s", msgError);
+                     ^~~~~~
+..\src\validaciones.c:188:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+03:31:29 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'getString':
+..\src\validaciones.c:35:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+             printf("%s",msg);   //no poner salto de linea, se va a pasar en el mensaje por valor
+             ^~~~~~
+..\src\validaciones.c:35:13: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\validaciones.c:35:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c:36:13: warning: implicit declaration of function 'fflush' [-Wimplicit-function-declaration]
+             fflush(stdin);
+             ^~~~~~
+..\src\validaciones.c:36:20: error: 'stdin' undeclared (first use in this function)
+             fflush(stdin);
+                    ^~~~~
+..\src\validaciones.c:36:20: note: each undeclared identifier is reported only once for each function it appears in
+..\src\validaciones.c:37:13: warning: implicit declaration of function 'gets' [-Wimplicit-function-declaration]
+             gets(bufferStr);
+             ^~~~
+..\src\validaciones.c: In function 'getName':
+..\src\validaciones.c:81:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s",msgError);
+                     ^~~~~~
+..\src\validaciones.c:81:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c: In function 'getUnsignedInt':
+..\src\validaciones.c:128:28: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+                     *input=atoi(bufferStr);     // unsigned long int strtoul(const char *str, char **end, int base)?
+                            ^~~~
+..\src\validaciones.c:134:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s",msgError);
+                     ^~~~~~
+..\src\validaciones.c:134:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c: In function 'getFloat':
+..\src\validaciones.c:182:28: warning: implicit declaration of function 'atof' [-Wimplicit-function-declaration]
+                     *input=atof(bufferStr); // atof array to float
+                            ^~~~
+..\src\validaciones.c:188:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s", msgError);
+                     ^~~~~~
+..\src\validaciones.c:188:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+03:31:48 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'getString':
+..\src\validaciones.c:35:13: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+             printf("%s",msg);   //no poner salto de linea, se va a pasar en el mensaje por valor
+             ^~~~~~
+..\src\validaciones.c:35:13: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\validaciones.c:35:13: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c:37:13: warning: implicit declaration of function 'gets' [-Wimplicit-function-declaration]
+             gets(bufferStr);
+             ^~~~
+..\src\validaciones.c: In function 'getName':
+..\src\validaciones.c:81:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s",msgError);
+                     ^~~~~~
+..\src\validaciones.c:81:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c: In function 'getUnsignedInt':
+..\src\validaciones.c:128:28: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+                     *input=atoi(bufferStr);     // unsigned long int strtoul(const char *str, char **end, int base)?
+                            ^~~~
+..\src\validaciones.c:134:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s",msgError);
+                     ^~~~~~
+..\src\validaciones.c:134:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\src\validaciones.c: In function 'getFloat':
+..\src\validaciones.c:182:28: warning: implicit declaration of function 'atof' [-Wimplicit-function-declaration]
+                     *input=atof(bufferStr); // atof array to float
+                            ^~~~
+..\src\validaciones.c:188:21: warning: incompatible implicit declaration of built-in function 'printf'
+                     printf("%s", msgError);
+                     ^~~~~~
+..\src\validaciones.c:188:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+03:32:38 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+03:34:02 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+03:34:52 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+03:35:27 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+03:36:12 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+03:38:28 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'addPassengers':
+..\src\ArrayPassenger.c:67:10: warning: unused variable 'aux' [-Wunused-variable]
+     char aux[20];
+          ^~~
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+03:41:20 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'addPassengers':
+..\src\ArrayPassenger.c:67:10: warning: unused variable 'aux' [-Wunused-variable]
+     char aux[20];
+          ^~~
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+03:42:16 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'addPassengers':
+..\src\ArrayPassenger.c:67:10: warning: unused variable 'aux' [-Wunused-variable]
+     char aux[20];
+          ^~~
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+03:43:04 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'addPassengers':
+..\src\ArrayPassenger.c:67:10: warning: unused variable 'aux' [-Wunused-variable]
+     char aux[20];
+          ^~~
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+03:44:34 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+03:45:14 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+03:45:47 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+03:47:05 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+03:48:44 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+03:49:44 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+03:50:09 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+03:50:43 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+03:51:14 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+23:57:03 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+00:00:10 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:02:05 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:02:26 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+00:03:18 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:04:16 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:06:36 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:07:05 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:07:45 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:08:43 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:12:45 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:13:33 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:15:30 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+00:19:12 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:24:44 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:25:23 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+00:27:49 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:28:36 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:30:55 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:35:03 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:77:7: error: called object is not a function or function pointer
+    if(removePassenger(pasajeros, TAM,tiposPasajeros,TAMS,vuelo,TAMV)(!flag))
+       ^~~~~~~~~~~~~~~
+..\src\TP2.c:89:8: error: called object is not a function or function pointer
+     if(modificarPasajero(pasajeros, TAM,tiposPasajeros,TAMS,vuelo,TAMV)(!flag))
+        ^~~~~~~~~~~~~~~~~
+00:35:31 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:89:8: error: called object is not a function or function pointer
+     if(modificarPasajero(pasajeros, TAM,tiposPasajeros,TAMS,vuelo,TAMV)(!flag))
+        ^~~~~~~~~~~~~~~~~
+00:35:42 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:36:37 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:36:48 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:37:11 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:41:06 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+..\src\TP2.c: In function 'main':
+..\src\TP2.c:77:4: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+    if(flag=1)
+    ^~
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+00:41:15 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:42:46 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:43:51 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" "src\\validaciones.o" 
+Info: Nothing to build for TP2
+00:49:13 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+00:51:47 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\estadoVuelo.o" "..\\src\\estadoVuelo.c" 
+..\src\estadoVuelo.c: In function 'cargarDescripcionVuelo':
+..\src\estadoVuelo.c:15:17: error: 'NULL' undeclared (first use in this function)
+     if(vuelo != NULL && tam > 0 && desc != NULL)
+                 ^~~~
+..\src\estadoVuelo.c:15:17: note: each undeclared identifier is reported only once for each function it appears in
+..\src\estadoVuelo.c:23:17: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+                 strcpy( desc, vuelo[i].descripcion);
+                 ^~~~~~
+..\src\estadoVuelo.c:23:17: warning: incompatible implicit declaration of built-in function 'strcpy'
+..\src\estadoVuelo.c:23:17: note: include '<string.h>' or provide a declaration of 'strcpy'
+00:52:15 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tipoPasajero.o" "..\\src\\tipoPasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\estadoVuelo.o" "..\\src\\estadoVuelo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+00:53:39 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+00:56:40 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+00:59:55 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+..\src\ArrayPassenger.c: In function 'addPassengers':
+..\src\ArrayPassenger.c:125:21: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+             scanf("%d",auxEntero);
+                     ^
+..\src\ArrayPassenger.c:133:34: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+                          scanf("%d",auxEntero);
+                                  ^
+..\src\ArrayPassenger.c:125:13: warning: 'auxEntero' may be used uninitialized in this function [-Wmaybe-uninitialized]
+             scanf("%d",auxEntero);
+             ^~~~~~~~~~~~~~~~~~~~~
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+01:00:23 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+01:02:35 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+01:05:22 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+..\src\funcionesPersonales.c: In function 'modificarPasajero':
+..\src\funcionesPersonales.c:191:28: error: 'nuevoPasajero' undeclared (first use in this function)
+                     strcpy(nuevoPasajero[indice].name,auxCad);
+                            ^~~~~~~~~~~~~
+..\src\funcionesPersonales.c:191:28: note: each undeclared identifier is reported only once for each function it appears in
+01:05:44 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+01:07:28 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+01:08:42 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+01:09:43 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+01:12:21 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+01:13:33 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+01:14:04 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+01:14:58 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+Info: Nothing to build for TP2
+01:35:07 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+01:51:47 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\estadoVuelo.o" "..\\src\\estadoVuelo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tipoPasajero.o" "..\\src\\tipoPasajero.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayPassenger.o" "..\\src\\ArrayPassenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\funcionesPersonales.o" "..\\src\\funcionesPersonales.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 
+Info: Nothing to build for TP2
+01:52:12 **** Incremental Build of configuration Debug for project TP2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP2.o" "..\\src\\TP2.c" 
+gcc -o TP2.exe "src\\ArrayPassenger.o" "src\\TP2.o" "src\\estadoVuelo.o" "src\\funcionesPersonales.o" "src\\tipoPasajero.o" 

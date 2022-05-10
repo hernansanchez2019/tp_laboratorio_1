@@ -1,0 +1,25 @@
+/*
+ * funcionesPersonales.h
+ *
+ *  Created on: 6 may. 2022
+ *      Author: Hernan
+ */
+
+#ifndef FUNCIONESPERSONALES_H_
+#define FUNCIONESPERSONALES_H_
+
+
+
+#endif /* FUNCIONESPERSONALES_H_ */
+
+
+int hardcodearPasajeros(ePassenger vec[], int tam, int cant, int* pNextId);
+void mostrarPasajero(ePassenger pasajero,eTipoPassenger tipo[],int tams,eEstadoVuelo vuelo[],int tamv);
+int menuPasajeros();
+int buscarLibre(ePassenger vec[], int tam, int* pIndex);
+int menuModificarPasajero();
+int modificarPasajero(ePassenger vec[], int tam,eTipoPassenger tipo[],int tams,eEstadoVuelo vuelo[],int tamv);
+int subMenuInformes();
+void informes(ePassenger vec[], int tam,eTipoPassenger tipo[],int tams,eEstadoVuelo vuelo[],int tamv);
+int promedioPasajes(ePassenger vec[], int tam);
+int listadoCodVueloYestado(ePassenger vec[], int tam,eEstadoVuelo vuelo[],int tamv);

@@ -1,0 +1,36 @@
+/*
+ * tipoPasajero.c
+ *
+ *  Created on: 6 may. 2022
+ *      Author: Hernan
+ */
+
+#include "tipoPasajero.h"
+#include <string.h>
+
+
+
+
+
+
+int cargarDescripcionPasajero(eTipoPassenger tipo[], int tam, int id, char desc[])
+{
+
+    int todoOk = 0;
+    if(tipo != NULL && tam > 0 && desc != NULL)
+    {
+
+         for(int i= 0; i < tam; i++)
+         {
+
+            if( tipo[i].id == id)
+            {
+                strcpy( desc, tipo[i].descripcion);
+                todoOk = 1;
+                break;
+            }
+
+         }
+    }
+    return todoOk;
+}
