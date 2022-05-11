@@ -49,7 +49,6 @@ int main(void)
 	};
 
 	initPassengers(pasajeros, TAM);
-	//hardcodearPasajeros(pasajeros, TAM, 3, &proximoId);
 
 
 	do
@@ -59,7 +58,7 @@ int main(void)
 
 		case 1:
 
-			if(!flag)
+			if(!flag || flag==2)
             {
 				addPassengers(pasajeros, TAM, &proximoId);
                 printf("Pasajero cargado con exito!!!\n");
@@ -73,7 +72,7 @@ int main(void)
 
 
 		case 2:
-			if(flag)
+			if(flag|| flag==2)
 			{
 				removePassenger(pasajeros, TAM,tiposPasajeros,TAMS,vuelo,TAMV);
 				printf("Baja exitosa!!!");
@@ -88,7 +87,7 @@ int main(void)
 
 
 		case 3:
-			if(flag)
+			if(flag|| flag==2)
 			{
 				modificarPasajero(pasajeros, TAM,tiposPasajeros,TAMS,vuelo,TAMV);
 				printf("Modificacion exitosa !!!");
@@ -102,7 +101,7 @@ int main(void)
 
 
 		case 4:
-			if(flag)
+			if(flag|| flag==2)
 			{
 			system("cls");
 			informes(pasajeros, TAM, tiposPasajeros, TAMS, vuelo, TAMV);
@@ -118,9 +117,16 @@ int main(void)
 
 
 		case 5:
+				hardcodearPasajeros(pasajeros, TAM, 6, &proximoId);
+				printf("Carga Forzada Realizada !!!\n");
+				flag=2;
+		        break;
+
+
+		case 6:
 				printf("\nPrograma Finalizado ! \n");
 		        salir = 's';
-		        break;
+			break;
 		}
 
 		system("pause");

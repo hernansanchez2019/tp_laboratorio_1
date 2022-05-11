@@ -66,6 +66,7 @@ int addPassengers(ePassenger vec[], int tam, int* pNextId)
     char aux[20];
     char auxCodVuelo[6];
     int auxEntero;
+    float auxFloat;
     ePassenger nuevoPasajero;
 
 
@@ -111,12 +112,16 @@ int addPassengers(ePassenger vec[], int tam, int* pNextId)
 
 
 
-            printf("Ingrese precio del vuelo: ");
-            scanf("%f", &nuevoPasajero.price);
+      auxFloat = getFloat("Ingrese precio del vuelo", "Error...Reingrese precio: ");
 
-            printf("Ingrese codigo del vuelo abc1234 : ");
+      nuevoPasajero.price = auxFloat;
+
+
+
+             printf("Ingrese codigo del vuelo abc1234 : ");
             fflush(stdin);
             gets(auxCodVuelo);
+
 
             while(strlen(auxCodVuelo)>6)
             {
@@ -128,37 +133,28 @@ int addPassengers(ePassenger vec[], int tam, int* pNextId)
             strcpy(nuevoPasajero.flyCode,auxCodVuelo);
 
 
-            printf("Ingrese tipo de pasajero\n");
-            printf("1. First\n");
-            printf("2. Business\n");
-            printf("3. Turista : \n");
-            scanf("%d",&auxEntero);
 
-            while(auxEntero > 3 || auxEntero < 1)
+        auxEntero = getInt("Ingrese tipo de pasajero\n 1. First\n 2. Business\n 3. Turista : \n", "Error...Reingrese tipo de pasajero: ");
+
+
+           while(auxEntero > 3 || auxEntero < 1)
             {
-            	  printf("Error...ingrese tipo de pasajero\n");
-            	            printf("1. First\n");
-            	            printf("2. Business\n");
-            	            printf("3. Turista : \n");
-            	            scanf("%d",&auxEntero);
+        	   auxEntero = getInt("Ingrese tipo de pasajero\n 1. First\n 2. Business\n 3. Turista : \n", "Error...Reingrese tipo de pasajero: ");
+
             }
 
 
             nuevoPasajero.idTipoPassenger = auxEntero;
 
 
-            printf("Ingrese estado del vuelo\n");
-            printf("1. ACTIVO\n");
-            printf("2. CANCELADO :  ");
-            scanf("%d", &auxEntero);
+
+           auxEntero = getInt("Ingrese estado del vuelo\n 1. ACTIVO\n2. CANCELADO :  ", "Error...Reingrese estado del vuelo: ");
 
 
             while(auxEntero > 2 || auxEntero < 1)
             {
-            	  printf("Error...ingrese estado de vuelo\n");
-            	  printf("1. ACTIVO\n");
-            	  printf("2. CANCELADO :  ");
-            	  scanf("%d",&auxEntero);
+               auxEntero = getInt("Ingrese estado del vuelo\n 1. ACTIVO\n2. CANCELADO :  ", "Error...Reingrese estado del vuelo: ");
+
             }
 
             nuevoPasajero.idEstadoVuelo = auxEntero;
@@ -249,20 +245,35 @@ int sortPassengers(ePassenger vec[],int tam,eTipoPassenger tipo[],int tams)
 	 int todoOk = 0;
 	    ePassenger auxPasajero;
 
+
 	    if( vec != NULL && tam > 0)
 	    {
 	        for(int i=0; i < tam - 1; i++)
 	        {
-	            for(int j= i+1; j < tams; j++)
+	            for(int j= i+1; j < tam; j++)
 	            {
-	                if( strcmp(vec[i].lastName, vec[j].lastName) > 0  &&  strcmp(tipo[i].descripcion,tipo[j].descripcion ) > 0)
+	               if( strcmp(vec[i].lastName, vec[j].lastName) >0)
 
 	                {
 	               		  auxPasajero = vec[i];
 	               		  vec[i] = vec[j];
 	               		  vec[j] = auxPasajero;
-
 	                }
+
+	               else
+	               {
+	            	  if( strcmp(vec[i].lastName, vec[j].lastName)== 0)
+	            	  {
+	            		  if(strcmp(tipo[i].descripcion, tipo[j].descripcion) > 0)
+	            		  {
+	            			  auxPasajero = vec[i];
+	            			  vec[i] = vec[j];
+	            			  vec[j] = auxPasajero;
+	            		  }
+
+	            	  }
+
+	               }
 	            }
 	        }
 	        todoOk = 1;
@@ -275,30 +286,33 @@ int sortPassengers(ePassenger vec[],int tam,eTipoPassenger tipo[],int tams)
 int sortPassengersByCode(ePassenger vec[], int tam,eEstadoVuelo vuelo[],int tamv)
 {
 	int todoOk = 0;
-	    int flag ;;
+
 	    char descripcion[20];
+	    ePassenger aux;
 
 	    if( vec != NULL && tam > 0 && vuelo != NULL && tamv > 0)
 	    {
 	        cargarDescripcionVuelo(vuelo, tamv, vec->idEstadoVuelo, descripcion);
 
 
-	        printf("Codigo vuelo       Estado Vuelo\n");
-	        printf("-----------------------------------------------------------------------\n");
-	        for(int i=0; i < tam; i++)
+	        for(int i=0 ; i < tam - 1 ; i++)
 	        {
-	            if( !vec[i].isEmpty && vec[i].idEstadoVuelo == vuelo[i].id)
-	            {
-	                printf("%s     %s\n", vec[i].flyCode,descripcion);
-	                flag = 0;
-	            }
-	        }
-	        if(flag)
-	        {
-	            printf("     No hay pasajeros cargados %s\n", descripcion);
+	        	for(int j = i + 1 ; j < tam ; j++)
+	        	{
+	        		if(stricmp(vec[i].flyCode,vec[j].flyCode) > 0)
+	        		{
+	        			aux = vec[i];
+	        			vec[i] = vec[j];
+	        			vec[j] = aux;
+
+	        		}
+
+	        	}
 	        }
 
-	        todoOk = 1;
+
+
+
 	    }
 	    return todoOk;
 }
